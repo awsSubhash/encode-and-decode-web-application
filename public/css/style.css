@@ -202,3 +202,15 @@ textarea:focus {
   .button-group { flex-direction: column; align-items: stretch; }
   .btn { width: 100%; }
 }
+/* Switch Page Button */
+.switch-btn {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  padding: 0.6rem 1.2rem;
+  min-width: auto;
+}
+
+.switch-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
