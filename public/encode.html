@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base64 Encoder</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <header class="header">
+    <h1>Base64 Encoder</h1>
+    <p class="tagline">Securely encode any text instantly</p>
+  </header>
+
+  <main class="card">
+    <textarea id="inputText" placeholder="Enter plain text…" rows="6"></textarea>
+
+    <div class="button-group">
+      <button id="encodeBtn" class="btn btn-encode">Encode</button>
+      <button id="clearBtn"  class="btn btn-clear">Clear</button>
+    </div>
+
+    <div id="outputSection" class="output-section hidden">
+      <div class="output-header">
+        <strong>Encoded:</strong>
+        <button id="copyBtn" class="btn-copy">Copy</button>
+      </div>
+      <div id="outputText" class="output-text"></div>
+    </div>
+
+    <div id="errorMsg" class="error hidden"></div>
+  </main>
+
+  <footer class="footer">
+    <p>Made with love by <a href="https://github.com/yourusername" target="_blank">YourName</a></p>
+    <p>© 2025 Base64 Tool. All rights reserved.</p>
+  </footer>
+</div>
+
+<script src="js/encode.js"></script>
+</body>
+</html>
